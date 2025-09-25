@@ -1,12 +1,21 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-reload-app';
-
-const result = multiply(3, 7);
+import { View, StyleSheet, Button } from 'react-native';
+import { reloadApp } from 'react-native-reload-app';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Button
+        title="Reload App"
+        onPress={() => {
+          reloadApp()
+            .then((message) => {
+              console.log(message);
+            })
+            .catch((error) => {
+              console.error(error);
+            });
+        }}
+      />
     </View>
   );
 }

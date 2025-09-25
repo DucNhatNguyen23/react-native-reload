@@ -1,6 +1,6 @@
 {
   "name": "react-native-reload-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A lightweight React Native TurboModule that allows you to programmatically reload your app’s JavaScript bundle. Useful for refreshing the UI or applying updates without restarting the entire app.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",

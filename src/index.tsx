@@ -1,5 +1,5 @@
 import ReloadApp from './NativeReloadApp';
 
-export function multiply(a: number, b: number): number {
-  return ReloadApp.multiply(a, b);
+export function reloadApp(): Promise<string> {
+  return ReloadApp.reloadApp();
 }
