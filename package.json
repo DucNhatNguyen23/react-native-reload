@@ -1,6 +1,6 @@
 {
   "name": "react-native-reload-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight React Native TurboModule that allows you to programmatically reload your app’s JavaScript bundle. Useful for refreshing the UI or applying updates without restarting the entire app.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DucNhatNguyen23/react-native-ota.git"
+    "url": "git+https://github.com/DucNhatNguyen23/react-native-reload"
   },
   "author": "@nhatduc0904 <nhatduc0904@gmail.com> (https://github.com/DucNhatNguyen23)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DucNhatNguyen23/react-native-ota/issues"
+    "url": "https://github.com/DucNhatNguyen23/react-native-reload/issues"
   },
-  "homepage": "https://github.com/DucNhatNguyen23/react-native-ota#readme",
+  "homepage": "https://github.com/DucNhatNguyen23/react-native-reload#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
